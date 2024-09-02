@@ -1,0 +1,35 @@
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.0.29:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Sep/2024 22:09:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Sep/2024 22:09:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:About page is accessed:
+INFO:werkzeug:127.0.0.1 - - [01/Sep/2024 22:09:33] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Sep/2024 22:09:33] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Sep/2024 22:09:35] "GET /create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Sep/2024 22:09:35] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Sep/2024 22:09:46] "[32mPOST /create HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Sep/2024 22:09:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Sep/2024 22:09:47] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Sep/2024 22:11:23] "GET /7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Sep/2024 22:11:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.0.0.29:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [01/Sep/2024 22:16:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Sep/2024 22:16:14] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:About page was accessed
+INFO:werkzeug:127.0.0.1 - - [01/Sep/2024 22:16:17] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Sep/2024 22:16:17] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Sep/2024 22:16:18] "GET /create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Sep/2024 22:16:18] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:New post created with title: test 2
+INFO:werkzeug:127.0.0.1 - - [01/Sep/2024 22:16:26] "[32mPOST /create HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [01/Sep/2024 22:16:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Sep/2024 22:16:26] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:app:Existed post with title: Chinh test
+INFO:werkzeug:127.0.0.1 - - [01/Sep/2024 22:16:33] "GET /7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Sep/2024 22:16:33] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+WARNING:app:Article with ID: 9 did not exist
+INFO:werkzeug:127.0.0.1 - - [01/Sep/2024 22:16:37] "[33mGET /9 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Sep/2024 22:16:37] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
