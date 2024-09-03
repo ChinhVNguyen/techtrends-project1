@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: 'https://github.com/ChinhVNguyen/techtrends-project1.git'  # Replace with the URL of your Helm chart repository
     targetRevision: HEAD
-    path: techtrends
+    path: helm
     helm:
       valueFiles:
         - values-prod.yaml
