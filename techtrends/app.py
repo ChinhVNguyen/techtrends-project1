@@ -54,7 +54,7 @@ def post(post_id):
       app.logger.info('Existed post with title: %s', post['title'])
       return render_template('post.html', post=post)
 
-# Define the About Us page
+# Define the About Us pagegit s
 @app.route('/about')
 def about():
     app.logger.info('About page was accessed')    
@@ -103,5 +103,5 @@ def metrics():
 
 # start the application on port 3111
 if __name__ == "__main__":
-   logging.basicConfig(level=logging.DEBUG, handlers=[logging.FileHandler("app.log"), logging.StreamHandler(sys.stdout)])
+   logging.basicConfig(level=logging.DEBUG, handlers=[logging.FileHandler("app.log"), logging.StreamHandler(sys.stdout), logging.StreamHandler(sys.stderr)])
    app.run(host='0.0.0.0', port='3111')
